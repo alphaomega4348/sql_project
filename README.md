@@ -1,6 +1,6 @@
-# Electronic Store Database Schema
+# Electronic Store Database 
 
-This Markdown file provides a comprehensive explanation of the database schema for an electronic store. The schema includes tables for companies, products, manufacturers, stores, customers, contracts, card details, carts, bookings, shipping, and more.
+This project provides a comprehensive explanation of the database schema for an electronic store. The schema includes tables for companies, products, manufacturers, stores, customers, contracts, card details, carts, bookings, shipping, and more.
 
 ## Tables Overview
 
