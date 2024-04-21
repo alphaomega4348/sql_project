@@ -79,8 +79,39 @@ The relational associations and constraints ensure data consistency and integrit
 ## Queries
 The database supports a variety of queries to retrieve information such as customer details, product sales, top-selling products, available products in stores, and shipping status.
 
-## Usage
-To use this database, follow these steps:
-1. Create the database named 'project'.
-2. Run the SQL script provided to create tables and insert sample data.
-3. Execute queries to retrieve desired information.
+## Installation and usage
+
+1) Create .env in root directory
+```
+touch .env
+```
+2)Configure environment variables in your new .env file.
+```
+DB_HOST="127.0.0.1"
+DB_USER="root"
+DB_PASSWORD="your_password”
+DB_NAME="electronic-vendor”
+PORT = 3000
+```
+
+3) Install dependencies for backend and frontend
+```
+cd backend 
+npm install
+cd ..
+cd frontend
+npm install
+cd ..
+
+```
+4) Run the server
+```
+cd backend
+node index.js
+```
+5) Start a new terminal and run react's development server
+```
+cd frontend
+npm run dev
+```
+
